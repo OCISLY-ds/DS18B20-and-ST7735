@@ -57,6 +57,7 @@ def Core():
     draw.text((10, 70), "Temperatur Wasser:", fill="blue", font=font1)
     draw.text((10, 90), (Wassertemperatur()) + "°C", fill="blue", font=font)
     device.clear()
+    Core()
 
 # einmaliges aufrufen der funktion Core() beim start, 
 # denn wie du weißt werden def's beim starten des skripts nicht automatisch ausgeführt
